@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+    <map>
+        <name>haiertv</name>
+        <value>HaierTVFactory</value>
+    </map>
+    <map>
+        <name>databaselog</name>
+        <value>HisenseTVFactory</value>
+    </map>
+</result>
