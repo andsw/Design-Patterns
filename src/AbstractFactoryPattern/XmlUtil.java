@@ -1,4 +1,4 @@
-package FactoryPattern;
+package AbstractFactoryPattern;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
@@ -25,7 +25,7 @@ public class XmlUtil {
         for (int i = 0; i < nodeList.getLength(); i++) {
             if (document.getElementsByTagName("name").item(i).getFirstChild().getNodeValue().equals(des)) {
                 String className = document.getElementsByTagName("value").item(i).getFirstChild().getNodeValue();
-                return Class.forName("FactoryPattern." + className).newInstance();
+                return Class.forName("AbstractFactoryPattern." + className).newInstance();
             }
         }
         return null;

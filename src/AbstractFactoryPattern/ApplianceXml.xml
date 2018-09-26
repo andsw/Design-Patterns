@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+    <map>
+        <name>haier</name>
+        <value>HaierFactory</value>
+    </map>
+    <map>
+        <name>tcl</name>
+        <value>TCLFactory</value>
+    </map>
+</result>

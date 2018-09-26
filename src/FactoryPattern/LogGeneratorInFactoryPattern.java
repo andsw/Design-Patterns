@@ -3,6 +3,7 @@ package FactoryPattern;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
+import java.io.File;
 import java.io.IOException;
 
 /**
@@ -53,7 +54,7 @@ public class LogGeneratorInFactoryPattern {
 
     public static void main(String[] args) throws SAXException,
             IllegalAccessException, IOException, InstantiationException, ParserConfigurationException, ClassNotFoundException {
-       LogFactory logFactory = (LogFactory) XmlUtil.GetFromXml("src\\FactoryPattern\\LogFactoryXml.xml", "filelog");
+       LogFactory logFactory = (LogFactory) XmlUtil.GetFromXml(new File("src\\FactoryPattern\\LogFactoryXml.xml"), "filelog");
         assert logFactory != null;
         logFactory.generateLog().createLog();
     }

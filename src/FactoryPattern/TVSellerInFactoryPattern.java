@@ -3,6 +3,7 @@ package FactoryPattern;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
+import java.io.File;
 import java.io.IOException;
 
 /**
@@ -51,7 +52,7 @@ class HisenseTVFactory implements TVFactory{
 
 public class TVSellerInFactoryPattern {
     public static void main(String[] args) throws SAXException, IllegalAccessException, IOException, InstantiationException, ParserConfigurationException, ClassNotFoundException {
-        TVFactory TVFactory = (TVFactory) XmlUtil.GetFromXml("src\\FactoryPattern\\TVFactoryXml.xml", "haiertv");
+        TVFactory TVFactory = (TVFactory) XmlUtil.GetFromXml(new File("src\\FactoryPattern\\TVFactoryXml.xml"), "haiertv");
         assert TVFactory != null;
         TVFactory.creatFactory().showBrand();
     }
