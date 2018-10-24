@@ -87,7 +87,7 @@ class Calculator{
     }
 }
 
-public class Main {
+public class CalculatorMain {
     public static void main(String[] args) throws ClassNotFoundException, IOException, InstantiationException, IllegalAccessException {
         Calculator calculator = new Calculator();
         calculator.calcu("1+1=");

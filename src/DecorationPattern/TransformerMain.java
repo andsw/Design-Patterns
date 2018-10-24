@@ -61,7 +61,7 @@ class Submarine extends Transformer{
 }
 
 
-public class TransformerInDecorationPattern {
+public class TransformerMain {
 
     public static void main(String[] args) {
         Car car = new Car();

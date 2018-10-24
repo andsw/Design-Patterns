@@ -63,7 +63,7 @@ class Black implements Color{
     }
 }
 
-public class ShapeWithColorInBridgePattern {
+public class ShapeWithColor {
     public static void main(String[] args) {
         Color white = new White();
         Shape square = new Square();

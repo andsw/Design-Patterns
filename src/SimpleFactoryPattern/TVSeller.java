@@ -34,7 +34,7 @@ class TVFactory {
     }
 }
 
-public class TVSellerInSimpleFactoryPattern {
+public class TVSeller {
     public static void main(String[] args) {
         TvInterface tv = TVFactory.productTV("夏新");
         tv.showBrand();

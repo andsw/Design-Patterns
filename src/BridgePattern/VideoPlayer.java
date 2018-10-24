@@ -79,7 +79,7 @@ class MacVersion extends OperationSystemVersion {
 
 
 
-public class VideoPlayerInBridgePattern {
+public class VideoPlayer {
 
     public static void main(String[] args) {
         MacVersion macVersion = new MacVersion();

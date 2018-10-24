@@ -110,7 +110,7 @@ class FullBorder extends Border {
     }
 }
 
-public class DisplayStrInDecorationPattern {
+public class DisplayStr {
     public static void main(String[] args) {
         StringDisplay str = new StringDisplay("hello world!");
         SideBorder sideBorder = new SideBorder(str, '#');

@@ -59,7 +59,7 @@ class OperationFactroy {
     }
 }
 
-public class CalculatorInSimpleFactoryPattern {
+public class Calculator {
     public static void main(String[] args) {
         OperationInte operation = OperationFactroy.generateOperation("add");
         System.out.println("the result is " + operation.calc(100, 200));

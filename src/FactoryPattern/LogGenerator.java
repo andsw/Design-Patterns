@@ -50,7 +50,7 @@ class FileLogFactory implements LogFactory{
     }
 }
 //D:\文件\Design-Patterns\src\FactoryPattern\LogFactoryXml.xml
-public class LogGeneratorInFactoryPattern {
+public class LogGenerator {
 
     public static void main(String[] args) throws SAXException,
             IllegalAccessException, IOException, InstantiationException, ParserConfigurationException, ClassNotFoundException {
